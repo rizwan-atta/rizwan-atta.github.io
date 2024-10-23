@@ -1,0 +1,72 @@
+
+html {
+    cursor: cell;
+}
+body {
+    height: 100%;
+    background-color: #191919;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 1%;
+    margin: 6%;
+    color: whitesmoke;
+}
+.headings {
+    color: #fab162;
+}
+h1 {
+    text-align: center;
+    font-size: 48px;
+
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 6%;
+}
+
+h1, h2 {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 4%;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+h3 {
+    padding-top: 6px;
+    margin-bottom: 2px;
+}
+
+.intro, .cert, .cont {
+    font-family: monospace, 'Courier New', Courier;                                                                          
+    border: 1px solid #fab162;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 6%;
+    padding-left: 6%;
+    border-end-end-radius: 40px 40px;
+
+}
+
+a {
+    color: #3fddc1;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+div {
+    transition-property: color;
+    transition-duration: 2s;
+}
+
+div:hover {
+    color: lightgreen;
+}
