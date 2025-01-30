@@ -1,23 +1,17 @@
-
-html {
-    cursor: cell;
-}
 body {
     height: 100%;
     background-color: #191919;
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-right: 6%;
+    padding-left: 6%;
     padding-bottom: 1%;
-    margin: 6%;
+    margin: 4%;
     color: whitesmoke;
+    cursor: cell;
 }
-.headings {
-    color: #fab162;
-}
+
 h1 {
     text-align: center;
     font-size: 48px;
-
     font-size: 3em;
     font-weight: 400;
     margin-bottom: 6%;
@@ -35,7 +29,6 @@ h2 {
     padding-bottom: 4%;
     font-weight: 200;
     font-style: italic;
-
 }
 
 h3 {
@@ -46,12 +39,11 @@ h3 {
 .intro, .cert, .cont {
     font-family: monospace, 'Courier New', Courier;                                                                          
     border: 1px solid #fab162;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
     border-end-end-radius: 40px 40px;
-
 }
 
 a {
@@ -69,4 +61,27 @@ div {
 
 div:hover {
     color: lightgreen;
+}
+
+.aligned {
+    background-color: white;
+    margin-top: 20px;
+    width: 180px;
+    border: solid 1px whitesmoke;
+    display: flex;
+}
+
+.aligned:hover {
+    transform: rotate(2deg);
+    transition: transform 0.5s ease;
+}
+
+.headings{
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+img {
+    width: 180px;
 }
